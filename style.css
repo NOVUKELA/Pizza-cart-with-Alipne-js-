@@ -1,0 +1,145 @@
+
+/* .Pizzas {
+    display: flex;
+} */
+
+.Pizza {
+
+    border: solid black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    flex: 1;
+
+}
+
+ .medium_Pizza {
+    background-color: #FF595E;
+
+}
+
+.large_Pizza {
+    background-color: blueviolet;
+
+}
+
+.small_Pizza {
+    background-color: yellowgreen;
+
+} 
+
+
+.contact_Us {
+    background-color: #1982c4;
+    border: solid black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    /* margin-left: 100%; */
+}
+
+/* .title {
+    background-color: #1982c4;
+    border: solid black;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+
+} */
+
+@media(min-width: 768px) {
+    .Pizzas{
+        display: flex;
+    }
+
+    body {
+        background-color: orange;
+    }
+    /* .container{
+        display: flex;
+    } */
+    .header{
+    display: flex;
+   } 
+   .cart {
+    /* background-color: dodgerblue; */
+    /* padding: 1em; */
+    width: 100%;
+    /* margin-top: -10em; */
+    /* border-radius-bottom: 1em; */
+}
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    text-align: center;
+    vertical-align: bottom;
+    /* height: 50px; */
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+
+}
+
+.f1 {
+    flex: 1
+}
+
+.f3 {
+    flex: 3;
+}
+.message{
+    padding: 1em;
+    margin: 1em;
+    background-color: orange;
+}
+.header {
+    padding: 1em;
+    /* background-color: dodgerblue; */
+    
+    border-radius: 1em;
+  
+}
+/* .box{
+    flex:1;
+} */
+
+.cart-box {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.cart {
+    /* background-color: dodgerblue; */
+    /* margin: 0.5em; */
+    padding: 1em;
+    width: 50%;
+    margin-top: -1cm;
+    margin-right: 10%;
+    border-radius: 0.5em;
+    border: 1px solid black;
+}
+.contact-details {
+    border: 2px solid lightskyblue;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: lightslategray;
+
+}
+
+.contacts-within {
+    display: flex;
+}
+
+.address {
+    margin-left: auto;
+}
